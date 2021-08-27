@@ -1,0 +1,12 @@
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\bin\Debug\netstandard2.1\Risto.EF.deps.json
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\bin\Debug\netstandard2.1\Risto.EF.dll
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\bin\Debug\netstandard2.1\Risto.EF.pdb
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\bin\Debug\netstandard2.1\Risto.Core.dll
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\bin\Debug\netstandard2.1\Risto.Core.pdb
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.csproj.AssemblyReference.cache
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.AssemblyInfoInputs.cache
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.AssemblyInfo.cs
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.csproj.CoreCompileInputs.cache
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.csproj.CopyComplete
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.dll
+C:\Users\laura.pennetta\source\repos\Risto.Core\Risto.EF\obj\Debug\netstandard2.1\Risto.EF.pdb

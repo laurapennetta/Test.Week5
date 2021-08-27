@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Risto.Core", "Risto.Core\Risto.Core.csproj", "{FFCBD295-6180-4091-AA7C-81906402D953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Risto.EF", "Risto.EF\Risto.EF.csproj", "{64F810A3-AFBA-4643-A32F-64E21BD26107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Risto.MVC", "Risto.MVC\Risto.MVC.csproj", "{8A1CC6ED-D205-4EB5-960E-57FC6A5171D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCBD295-6180-4091-AA7C-81906402D953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCBD295-6180-4091-AA7C-81906402D953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCBD295-6180-4091-AA7C-81906402D953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCBD295-6180-4091-AA7C-81906402D953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F810A3-AFBA-4643-A32F-64E21BD26107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F810A3-AFBA-4643-A32F-64E21BD26107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F810A3-AFBA-4643-A32F-64E21BD26107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F810A3-AFBA-4643-A32F-64E21BD26107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1CC6ED-D205-4EB5-960E-57FC6A5171D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1CC6ED-D205-4EB5-960E-57FC6A5171D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1CC6ED-D205-4EB5-960E-57FC6A5171D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1CC6ED-D205-4EB5-960E-57FC6A5171D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDCFA7E6-84ED-46FB-80A8-071107C34280}
+	EndGlobalSection
+EndGlobal

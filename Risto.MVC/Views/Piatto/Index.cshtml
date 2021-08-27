@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Piatto>
+
+@{ ViewBag.NumPiatti = Model.Count();}
+
+@if (User.IsInRole("Ristoratore"))
+{
+
+<div>
+    <a asp-action="Create">New Piatto</a>
+    <a asp-action="Delete">Delete Piatto</a>
+    <a asp-action="Edit">Edit Piatto</a>
+</div>}
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>DESCRIZIONE</th>
+            <th>TIPOLOGIA</th>
+            <th>PREZZO</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>@item.ID</td>
+    <td>@item.Nome</td>
+    <td>@item.Descrizione</td>
+    <td>@item.Tipologia</td>
+    <td>@item.Prezzo</td>
+    <td>
+        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+        @*@Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
+    </td>
+</tr>}
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <td># Piatti</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>@ViewBag.NumPiatti</td>
+        </tr>
+    </tfoot>
+</table>
